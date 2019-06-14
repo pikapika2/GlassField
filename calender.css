@@ -1,0 +1,16 @@
+.date-picker-popup > * > .day-cell {
+	-fx-font-size: 0.72em;
+}
+
+.date-picker-popup > * > .day-name-cell {
+	-fx-padding: 0 0 0 0;
+	-fx-font-size: 0.72em;
+}
+
+.date-picker-popup >  .month-year-pane {
+	-fx-padding: 0.1em 0.2em 0.1em 0.2em;
+}
+
+.date-picker-popup > * > .today {
+	-fx-background-color: -fx-control-inner-background, red, green;
+}

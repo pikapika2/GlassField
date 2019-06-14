@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UseController">
+   <children>
+      <DatePicker  layoutX="37.0" layoutY="50.0" />
+      <TextArea  layoutX="37.0" layoutY="162.0" prefHeight="200.0" prefWidth="323.0" />
+      <Button  layoutX="479.0" layoutY="347.0" mnemonicParsing="false" onAction="#sendButton" text="送信" />
+      <ComboBox  layoutX="37.0" layoutY="107.0" prefWidth="150.0" />
+   </children>
+</Pane>
